@@ -4,4 +4,4 @@ https://en.wikipedia.org/wiki/Eight_queens_puzzle
 
 ### Test
 
-    sbcl --non-interactive --eval "(ql:quickload :queens)" --eval "(asdf:test-system :queens)"
+    ccl -e "(ql:quickload :queens)" -e "(asdf:test-system :queens)" -e "(quit)"
